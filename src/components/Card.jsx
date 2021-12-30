@@ -8,6 +8,7 @@ export default function Card({key, title, text, num}) {
         initial={{opacity: 0 , x: num % 2 === 0 ? -50 : 50, y: num % 2 === 0 ? -50 : 50}}
         animate={{opacity: 1 , x: 0 , y: 0}}
         transition={{durantion: 1, delay: num * 0.2}}
+        drag
         
         key={key} className='col-12 col-sm-3'
         style={
