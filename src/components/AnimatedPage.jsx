@@ -14,6 +14,15 @@ export default function AnimatedPage({children}) {
         initial="initial"
         animate="animate"
         exit="exit"
+        transition={{duration: 0.7}}
+
+        
+        className='col-6'
+        style={{display: "flex",
+        flexWrap: "wrap",
+        maxWidth: "1024px",
+        margin: "0 auto",
+        justifyContent: "center"}}
         >
             {children}
         </motion.div>
