@@ -12,10 +12,16 @@ const PageButtons = () => {
         maxWidth: "1024px",
         margin: "0 auto",
         justifyContent: "center",
-        background: "#fff"}}
+        background: "#fff",
+        position:"fixed",
+        left:0,
+        bottom:10,
+        right:0,
+      
+      }}
       >
-      <Link to="/page1"><button className='btn btn-light mr-2' >Page 1</button></Link>
-      <Link to="/page2"><button className='btn btn-light'>Page 2</button></Link>
+      <Link to="/page1"><button className='btn btn-light mr-2' >1</button></Link>
+      <Link to="/page2"><button className='btn btn-light'>2</button></Link>
       </div>
     
   );
