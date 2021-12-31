@@ -12,7 +12,6 @@ const PageButtons = () => {
         maxWidth: "1024px",
         margin: "0 auto",
         justifyContent: "center",
-        background: "#fff",
         position:"fixed",
         left:0,
         bottom:10,
