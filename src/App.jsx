@@ -15,6 +15,7 @@ export default function App() {
         <div>
             <AnimatePresence exitBeforeEnter>
                 <Routes key={location.pathname} location={location}>
+                    <Route path='/' element={<Page1/>} />
                     <Route path='/page1' element={<Page1/>} />
                     <Route path='/page2' element={<Page2/>} />
                 </Routes>

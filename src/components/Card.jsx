@@ -12,7 +12,8 @@ export default function Card({key, title, text, num}) {
             scale: 2,
             zIndex: 3,
             backgroundColor: "#FAFF81",
-            color: "black"
+            color: "black",
+          
         },
         inActive: {
             opacity: 1,
