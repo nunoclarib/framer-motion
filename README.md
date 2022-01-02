@@ -1,4 +1,4 @@
-# Article Online
+# Online Article
 
 // link do ensaio teórico
 
@@ -6,6 +6,7 @@
 
 TDW // MCTW // UA
 
+## Get Started
 ### `npm start`
 
 Runs the app in the development mode.\
