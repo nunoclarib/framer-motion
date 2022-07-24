@@ -1,6 +1,6 @@
 # Online Article
 
-// link do ensaio teórico
+Link do Artigo: https://medium.com/p/e163542a2d41
 
 ## Credits
 
